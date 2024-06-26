@@ -30,7 +30,7 @@ def main():
     freqs = freqs[idx_min:idx_max]
 
     # Create an empty black image
-    img_height = 500
+    img_height = 750
     img_width = 1000
     img = np.zeros((img_height, img_width, 3), dtype=np.uint8)
 
